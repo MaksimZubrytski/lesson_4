@@ -1,0 +1,595 @@
+/* === Config styles 
+========*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    width: 1400px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+header {
+    width: 100%;
+}
+nav {
+    position: sticky;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+h1 {
+    font-size: 1px;
+}
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+/*=================== Class Header =======================*/
+.header {
+    padding-bottom: 40px;
+}
+.title {
+    padding-top: 109px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: rgb(33, 33, 33);
+    text-transform: uppercase;
+}
+.line {
+    margin-top: 30px;
+    height: 2px;
+    width: 64px;
+    border: none;
+    background-color: rgb(255, 139, 56);
+    margin: 30px auto 0px;
+}
+.text {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(134, 135, 139);
+}
+/* ================== Nav ==================== */
+.nav {
+    position :sticky;
+    top: 0;
+    width: 100%;
+    height: 71px;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+}
+.nav-logo {
+    display: inline-block;
+    margin-top: 21px;
+    margin-left: 150px;
+    width: 79px;
+    height: 27px;
+    background: url(../img/nav/logo.png) no-repeat center center;
+}
+.nav__list {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 29px;
+    margin-left: 582px;
+    font-size: 0px;
+}
+.nav__item {
+    display: inline-block;
+    margin-left: 46px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.69);
+}
+.nav__item:first-of-type {
+    margin-left: 0px;
+}
+.nav__link {
+    color: rgba(255, 255, 255, 0.69);
+}
+/* ==================== AXIT ==================== */
+.axit {
+    width: 100%;
+    padding-left: 150px;
+    padding-bottom: 140px;
+    background: linear-gradient(to right, rgba(0, 0, 0, .52), rgba(0, 0, 0, .52)),
+    url(../img/axit/background.jpeg) no-repeat center center;
+    background-size: cover;
+    font-size: 0px;
+    text-align: left;
+}
+.axit__header {
+    display: inline-block;
+    width: 520px;
+    vertical-align: top;
+}
+.axit-logo {
+    margin-top: 109px;
+    width: 175px;
+    height: 60px;
+    background: url(../img/axit/logo.png) no-repeat center center;
+}
+.axit__tittle {
+    padding-top: 33px;
+    color: rgb(255, 255, 255);
+}
+.axit__line {
+    margin-top: 36px;
+    height: 3px;
+    width: 74px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.axit__text {
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 48px;
+}
+.axit__link {
+    margin-top: 44px;
+    margin-left: 1px;
+    padding: 15px 32px 14px;
+    border: rgb(255, 255, 255) solid 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.singup {
+    display: inline-block;
+    width: 374px;
+    height: 368px;
+    text-align: center;
+    margin-top: 139px;
+    margin-left: 214px;
+}
+.singup-trial {
+    width: 360px;
+    height: 54px;
+    padding-top: 15px;
+    background-color: rgb(245, 245, 245);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.big-orange {
+    text-transform: uppercase;
+    color: rgb(255, 139, 56);
+}
+.singup-data {
+    width: 360px;
+    height: 261px;
+    background-color: rgb(255, 255, 255);
+}
+.axit__input {
+    width: 285px;
+    height: 31px;
+    padding: 10px 0px 9px 13px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(189, 189, 189);
+    border: none;
+    border-bottom: rgb(189, 189, 189) solid 1px;
+}
+.singup-input-name {
+    margin-top: 29px;
+}
+.singup-input-email {
+    margin-top: 36px;
+}
+.singup-input-password {
+    margin-top: 47px;
+}
+.singup-started {
+    width: 360px;
+    height: 54px;
+    padding-top: 18px;
+    background-color: rgb(255, 139, 56);
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+/* ========================= Social ==================== */
+.social {
+    width: 100%;
+    padding-bottom: 22px;
+    text-align: left;
+    font-size: 0px;
+    border-bottom: rgb(183, 183, 183) solid 1px;
+}
+.social__header {
+    display: inline-block;
+    width: 360px;
+    margin-left: 152px;
+}
+.social__tittle {
+    padding-top: 23px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+.social__text {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(134, 135, 139);
+}
+.social__list {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 62px;
+    font-size: 0px;
+}
+.social__item {
+    display: inline-block;
+    margin: 0px 20px;
+}
+.social__img {
+    width: 50px;
+    height: 46px;
+}
+/* ========================= Tabs ==================== */
+.tabs {
+    width: 100%;
+    padding-bottom: 114px;
+    font-size: 0px;
+    background-color: rgb(245, 245, 245);
+}
+.tabs-block {
+    display: inline-block;
+    height: 336px;
+    width: 112px;
+    margin-top: 148px;
+    border-radius: 5px;
+}
+.block-orange {
+    width: 112px;
+    height: 112px;
+    padding-top: 50px;
+    background-color: rgb(255, 139, 56);
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.block-black {
+    width: 112px;
+    height: 112px;
+    padding-top: 50px;
+    background-color: rgb(51, 51, 51);
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(245, 245, 245);
+}
+.border-bottom {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; 
+}
+.tabs__article {
+    vertical-align: top;
+    display: inline-block;
+    width: 476px;
+    margin: 156px 103px 0px 99px;
+    text-align: left;
+}
+.tabs__tittle {
+    margin-bottom: 52px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.tabs__text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(134, 135, 139);
+}
+.tabs__button {
+    margin-top: 31px;
+    width: 121px;
+    height: 46px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 139, 56);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tabs-building {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 172px;
+    width: 320px;
+    height: 253px;
+    background: url(../img/building.png) no-repeat center center;
+}
+/* ============================ Awesome ==================================== */
+.awesome {
+    width: 100%;
+}
+.awesome__card {
+    font-size: 0px;
+    padding: 40px 0px 105px;
+}
+.card {
+    display: inline-block;
+    width: 350px;
+    margin: 0px 16px;
+}
+.card__icon {
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+    border: rgb(255, 139, 56) solid 2px;
+    border-radius: 100%;
+}
+.icon-lamp {
+    background: url(../img/lamp.png) no-repeat center center;
+}
+.icon-keyboard {
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+.icon-lightning {
+    background: url(../img/lightning.png) no-repeat center center;
+}
+.card__tittle {
+    margin-top: 29px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+.card__text {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(134, 135, 139);
+}
+/* ====================== Pricing ==================== */
+.pricing {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+.pricing__list {
+    padding: 40px 0px 95px;
+    font-size: 0px;
+}
+.pricing__section {
+    display: inline-block;
+    margin : 0px 20px 0px;
+}
+.pricing-type {
+    width: 343px;
+    height: 59px;
+    padding-top: 17px;
+    background-color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.pricing-cost {
+    margin: 1px 0;
+    padding-top: 13px;
+    width: 343px;
+    height: 100px;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(51, 51, 51);
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.font-size {
+    font-size: 80px;
+}
+.pricing-period {
+    width: 343px;
+    height: 51px;
+    padding-top: 17px;
+    background-color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.list__line {
+    height: 5px;
+    width: 343px;
+    border: none;
+    background-color: rgb(255, 139, 56);
+}
+.pricing-popular {
+    width: 343px;
+    height: 40px;
+    padding-top: 13px;
+    background-color: rgb(255, 139, 56);
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.pricing__item {
+    width: 343px;
+    height: 40px;
+    margin-bottom: 1px;
+    padding-top: 14px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(134, 135, 139);
+    text-transform: uppercase;
+}
+/* =================== Customers ==================== */
+.customers {
+    width: 100%;
+}
+.customers-review {
+    font-size: 0px;
+    padding: 15px 0px 101px;
+}
+.review {
+    width: 273px;
+    height: 225px;
+    display: inline-block;
+    margin: 0px 60px 0px;
+    text-align: left;
+}
+.review__blockquote {
+    width: 273px;
+    height: 147px;
+    padding: 24px 13px 41px 12px;
+    background-color: rgb(245, 245, 245);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(134, 135, 139);
+}
+.review__img {
+    display: inline-block;
+    margin-top: 8px;
+}
+.review-data {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0px;
+    margin-left: 15px;
+    padding-bottom: 15px;
+}
+.review__tittle {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    padding: 0px;
+}
+.review__text {
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(134, 135, 139);
+}
+/* ================== Download ==================== */
+.download {
+    width:100%;
+    padding-bottom: 77px;
+    background:
+    linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+    url(../img/city.jpeg) no-repeat center center;
+    background-size: cover;
+}
+.download__tittle {
+    padding-top: 76px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.download__line {
+    margin-top: 30px;
+    height: 3px;
+    width: 74px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-left: 663px;
+}
+.download__text {
+    margin-top: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 48px;
+}
+.download__link {
+    padding: 15px 33px 14px 31px;
+    border: rgb(255, 255, 255) solid 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+/* ================ Contact ==================== */
+.contact {
+    width: 100%;
+}
+/* ==================== Contact-Form ==================== */
+.contact__form {
+    font-size: 0px;
+    padding: 40px 0px 80px;
+}
+.form-data {
+    display: inline-block;
+    vertical-align: top;
+}
+.data__input {
+    width: 527px;
+    height: 31px;
+    margin-bottom: 30px;
+    padding: 10px 0px 9px 13px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(189, 189, 189);
+    border: none;
+    border-bottom: rgb(189, 189, 189) solid 1px;
+}
+.form-message {
+    display: inline-block;
+}
+.message__textarea {
+    margin-left: 67px;
+    padding: 10px 0px 9px 13px;
+    font-family: 'Open Sans', sans-serif;
+    width: 527px;
+    height: 153px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(189, 189, 189);
+    border: none;
+    border-bottom: rgb(189, 189, 189) solid 1px;
+    resize: none;
+}
+
+.contact__button {
+    display: block;
+    margin: 13px auto 0px;
+    width: 148px;
+    height: 46px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 139, 56);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+/* ======================= Footer ==================== */
+.footer {
+    width: 100%;
+    padding-bottom: 15px;
+    background-color: rgb(0, 0, 0);
+}
+.footer__list {
+    font-size: 0px;
+}
+.footer__item {
+    display: inline-block;
+    margin: 39px 12px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.footer__img {
+    width: 21px;
+    height: 23px;
+}
+.footer__text {
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
