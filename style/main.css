@@ -1,5 +1,4 @@
-/* === Config styles 
-========*/
+/* =============== Config styles ========*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -26,8 +25,6 @@ ul {
 h1 {
     font-size: 1px;
 }
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif; */
 /*=================== Class Header =======================*/
 .header {
     padding-bottom: 40px;
